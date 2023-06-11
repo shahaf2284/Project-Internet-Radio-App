@@ -1,0 +1,38 @@
+﻿From pc5-GUI:
+----------------
+1. On pc5-GUI, download the files from the moodle
+
+2. using scp, transfer the files you downloaded to the PCs
+3. "chmod 777 radio_listener"
+
+4. "chmod 777 radio_control"
+
+5. "chmod 777 radio_server"
+
+6. Now you can run the files
+
+From Windows:
+------------------
+1. download the files from the moodle
+
+2. open virtualbox
+
+3. at the PC network settings, enable adapter 2 as host-only adapter.
+
+4. run the PC from virtualbox
+
+5. Execute the command "dhclient eth1" on the PC terminal
+
+6. Find the network address of the PC eth1 interface
+
+7. using mRemoteNG (on windows. The installation file at NC_2_LAB), transfer the files you downloaded to the PC
+
+8. Shut down the PC and open from GNS3
+
+9. "chmod 777 radio_listener"
+
+10. "chmod 777 radio_control"
+
+11. "chmod 777 radio_server"
+
+12. Now you can run the files
